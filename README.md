@@ -16,6 +16,6 @@ To Use:
 3. Create a MCP23017_Handle_t
 4. Pass the init struct, IO Driver, and device handle to MCP23017_Init()
 5. Functions listed in MCP23017.h can now be used by passing the initialized device handle as a function arguement
-Above example was implemented on an STM32U5 processor (b-u585i-iot02a discovery board)
+Above example was implemented on an STM32F4 processor (STM32 BlackPill WeAct)
 
 Logging functions may be removed and replaced with user code.
